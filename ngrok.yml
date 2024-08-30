@@ -1,0 +1,9 @@
+tunnels:
+  frontend:
+    proto: http
+    addr: 3000
+    subdomain: frontend  # Opcional, para um subdomínio específico
+  backend:
+    proto: http
+    addr: 500
+    subdomain: backend  # Opcional, para um subdomínio específico
